@@ -66,7 +66,7 @@ public class Main {
             }
         }
     }
-
+    
     public static void setSizeToFreq(int count) {
         synchronized (sizeToFreq) {
             if (sizeToFreq.containsKey(count)) {
